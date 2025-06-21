@@ -1,0 +1,19 @@
+!.env.example
+.DS_Store
+.react-router
+build
+node_modules
+*.tsbuildinfo
+.local
+drizzle
+
+# Uncomment .env when deploy to production
+.env
+
+# Large data files
+wordsfunny_data.zip
+__MACOSX/
+wordsfunny_data/*.csv
+
+# Added files
+start_wordsfunny.sh
